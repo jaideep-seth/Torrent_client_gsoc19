@@ -45,6 +45,8 @@ Available on PyPI:
 ------------------
 
 * [torrent-client](https://pypi.org/project/torrent-client/)
+
+
         pip install torrent-client
 
 
