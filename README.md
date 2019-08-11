@@ -1,5 +1,5 @@
-bit-torrent
-===========
+BitTorrent Client
+=================
 
 Simple BitTorrent client built with Python's asyncio
 
