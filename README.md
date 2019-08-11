@@ -10,34 +10,34 @@ Usage
 
 1. Start a daemon:
 
-        python3 torrent_cli.py start &
+        torrent_cli.py start &
 
 2. *(optional)* Look at a list of files in a torrent you want to download:
 
-        python3 torrent_cli.py show ~/Torrents/debian-8.3.0-i386-netinst.iso.torrent
+        torrent_cli.py show ~/Torrents/debian-8.3.0-i386-netinst.iso.torrent
 
 3. Specify a download directory and add the torrent to the daemon:
 
-        python3 torrent_cli.py add ~/Torrents/debian-8.3.0-i386-netinst.iso.torrent -d ~/Downloads
+        torrent_cli.py add ~/Torrents/debian-8.3.0-i386-netinst.iso.torrent -d ~/Downloads
 
     If the torrent contains more than one file, you can select which files you want to download
     using `--include` and `--exclude` options. For more information run:
 
-        python3 torrent_cli.py add --help
+        torrent_cli.py add --help
 
 4. Watch torrent status:
 
-        watch python3 torrent_cli.py status
+        watch torrent_cli.py status
 
     Add `-v` to increase output verbosity.
 
     You also can add more torrents, pause, resume, and remove them. For more information run:
 
-        python3 torrent_cli.py --help
+        torrent_cli.py --help
 
 5. To stop the daemon run:
 
-        python3 torrent_cli.py stop
+        torrent_cli.py stop
 
     The daemon will restore its state after restart.
 
